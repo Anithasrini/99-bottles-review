@@ -1,4 +1,4 @@
-describe('bottleLyrics', function(amount) {
+describe('bottleLyrics', function() {
 
   it ("will get the entire bottleLyrics for the amount", function() {
     expect (bottleLyrics(99)).to.equal('(99) bottles of beer on the wall, (99) bottles of beer.Take one down and pass it around, (98) bottles of beer on the wall.');
