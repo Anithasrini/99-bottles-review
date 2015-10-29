@@ -1,7 +1,7 @@
-describe("bottleLyrics", function() {
+describe("bottleLyrics", function(input) {
 
   it ("will get the entire bottleLyrics for the amount", function() {
-    expect (bottleLyrics(99)).to.equal('(99) bottles of beer on the wall, (99) bottles of beer.Take one down and pass it around, (98) bottles of beer on the wall.');
+    expect (bottleLyrics(99)).to.equal('99 bottles of beer on the wall, 99 bottles of beer.Take one down and pass it around, 98 bottles of beer on the wall.');
   });
 
   it ("will get 2 bottleLyrics", function() {
